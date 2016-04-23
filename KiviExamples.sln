@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PongTutorial", "PongTutorial\PongTutorial.pyproj", "{0BB02B87-BB9F-4178-A21E-6A668E4404FE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PaintTutorial", "PaintTutorial\PaintTutorial.pyproj", "{E838B7DB-6788-4A19-9F19-220EA033BDFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37CACB58-2E82-429C-9E56-19E908CB2290}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0BB02B87-BB9F-4178-A21E-6A668E4404FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BB02B87-BB9F-4178-A21E-6A668E4404FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E838B7DB-6788-4A19-9F19-220EA033BDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E838B7DB-6788-4A19-9F19-220EA033BDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

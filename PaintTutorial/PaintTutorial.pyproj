@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0bb02b87-bb9f-4178-a21e-6a668e4404fe</ProjectGuid>
+    <ProjectGuid>e838b7db-6788-4a19-9f19-220ea033bdfa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PongTutorial</Name>
-    <RootNamespace>PongTutorial</RootNamespace>
-    <InterpreterId>{cb17d6f1-254b-49bf-8262-6f793def4bc7}</InterpreterId>
+    <Name>PaintTutorial</Name>
+    <RootNamespace>PaintTutorial</RootNamespace>
+    <InterpreterId>{c574c464-5e7a-4b65-a26b-c91ca20c2695}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -27,11 +27,14 @@
     <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="dev\">
-      <Id>{cb17d6f1-254b-49bf-8262-6f793def4bc7}</Id>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{c574c464-5e7a-4b65-a26b-c91ca20c2695}</Id>
       <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
       <Version>2.7</Version>
-      <Description>dev (Python 2.7)</Description>
+      <Description>env (Python 2.7)</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <LibraryPath>Lib\</LibraryPath>
@@ -40,10 +43,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pong.kv">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="requirements.txt" />
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
